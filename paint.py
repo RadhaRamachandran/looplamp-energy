@@ -5,7 +5,7 @@
 # ----> http://adafruit.com/products/306
 
 import RPi.GPIO as GPIO
-import Image
+from PIL import Image
 import time
 
 # Configurable values
