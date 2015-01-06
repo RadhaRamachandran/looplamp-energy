@@ -4,7 +4,7 @@
 # Adafruit Digital Addressable RGB LED flex strip.
 # ----> http://adafruit.com/products/306
 
-import RPi.GPIO as GPIO, 
+import RPi.GPIO as GPIO
 import Image
 import time
 
