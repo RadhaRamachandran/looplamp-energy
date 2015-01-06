@@ -6,7 +6,7 @@
 
 import RPi.GPIO as GPIO
 from PIL import Image
-import sys
+from sys import time
 
 # Configurable values
 filename  = "hello.png"
