@@ -5,11 +5,24 @@ r = ([255,0,0])
 g = ([0,255,0])
 b = ([0,0,255])
 
+p = []
+for j in range(5):
+    for i in range(20):
+        p.append(r)
+        
+    for i in range(20):
+        p.append(g)
+        
+    for i in range(20):
+        p.append(b)
+
+
+
 #Write out all elements row-wise in a single array
-p = (r, g, b,   r, g, b,   r, g, b,   r, g, b) 
+#p = (r, g, b,   r, g, b,   r, g, b,   r, g, b) 
 #Each row has a red, green and blue pixel. 4 such rows.
 
-rows = 4
+rows = 5
 #Calculate number of columns from the number of rows specified
 no_elements = len(p)
 columns = no_elements/rows
