@@ -52,5 +52,5 @@ while True:
 	for x in range(width):
                 spidev.write(column[x])
                 spidev.flush()
-		time.sleep(0.001)
-	time.sleep(0.5)
+		time.sleep(1)
+	time.sleep(0.001)
