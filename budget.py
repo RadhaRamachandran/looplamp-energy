@@ -7,7 +7,6 @@ budget_data = range(20,-5,-1)
 r = ([255,0,0])
 g = ([0,255,0])
 b = ([0,0,255])
-y = ([255,255,0])
 
 p1 = []
 total_lights = 20
@@ -23,11 +22,11 @@ for k,i in enumerate(budget_data):
             if (j < i):
                 p.append(g)
             else: 
-                p.append(y)
+                p.append(b)
     else:
         for j in range(total_lights):
             if (j >= np.abs(i)):
-                p.append(y)
+                p.append(b)
             else:
                 p.append(r)
                 
