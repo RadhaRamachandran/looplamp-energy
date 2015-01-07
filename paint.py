@@ -4,7 +4,9 @@
 # Adafruit Digital Addressable RGB LED flex strip.
 # ----> http://adafruit.com/products/306
 
-import RPi.GPIO as GPIO, Image, time
+import RPi.GPIO as GPIO
+from PIL import Image
+import time
 
 # Configurable values
 filename  = "hello.png"
@@ -50,5 +52,5 @@ while True:
 	for x in range(width):
                 spidev.write(column[x])
                 spidev.flush()
-		time.sleep(0.001)
-	time.sleep(0.5)
+		time.sleep(1)
+	time.sleep(0.001)
