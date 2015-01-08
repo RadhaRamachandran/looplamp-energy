@@ -1,7 +1,7 @@
 import png
 import numpy as np
 
-#budget_data = np.genfromtxt('budget_data.csv',delimiter=',')
+#budget_data = np.genfromtxt('budget_data.csv',delimiter=',', usecols = 1)
 budget_data = range(20,-5,-1)
 
 r = ([255,0,0])
