@@ -14,7 +14,7 @@ fnumber = 0;
 rows = total_lights;
 columns = 1;
 
-for i in budget_data:
+for k, i in enumerate(budget_data):
     p = [];
     print i
     if (i > 0):
