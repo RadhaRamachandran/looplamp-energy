@@ -7,6 +7,7 @@ budget_data = np.genfromtxt('budget_data.csv',delimiter=',', usecols = 1)
 r = ([255,0,0])
 g = ([0,255,0])
 b = ([0,0,255])
+y = ([255,128,0])
 
 
 total_lights = 20
@@ -22,11 +23,11 @@ for k, i in enumerate(budget_data):
             if (j < i):
                 p.append(g)
             else: 
-                p.append(b)
+                p.append(y)
     else:
         for j in range(total_lights):
             if (j >= np.abs(i)):
-                p.append(b)
+                p.append(y)
             else:
                 p.append(r)
                 
