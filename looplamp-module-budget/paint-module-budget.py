@@ -7,10 +7,11 @@
 import RPi.GPIO as GPIO
 from PIL import Image
 import time
+import numpy as np
 
 # Configurable values
-#budget_data = np.genfromtxt('budget_data.csv',delimiter=',')
-budget_data = range(20,-5,-1)
+budget_data = np.genfromtxt('budget_data.csv',delimiter=',', usecols = 1)
+#budget_data = range(20,-5,-1)
 
 dev       = "/dev/spidev0.0"
 
