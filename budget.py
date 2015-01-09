@@ -8,13 +8,13 @@ r = ([255,0,0])
 g = ([0,255,0])
 b = ([0,0,255])
 
-p1 = []
+
 total_lights = 20
 fnumber = 0;
 rows = total_lights;
 columns = 1;
 
-for k,i in enumerate(budget_data):
+for i in budget_data:
     p = [];
     print i
     if (i > 0):
