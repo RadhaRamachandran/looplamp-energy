@@ -58,5 +58,5 @@ for i in range(len(budget_data)):
     for x in range(width):
         spidev.write(column[x])
         spidev.flush()
-        time.sleep(5)
+        time.sleep(0.1)
    	
