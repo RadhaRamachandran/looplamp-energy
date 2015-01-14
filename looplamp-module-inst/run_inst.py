@@ -43,7 +43,7 @@ for i in range(len(inst_data)):
 
     # Convert 8-bit RGB image into column-wise GRB bytearray list.
     print "Converting..."
-    sin_array = np.sin((range(0., 180., 15.)) * np.pi / 180.)
+    sin_array = np.sin((map(float, range(0, 180, 15))) * np.pi / 180.)
     for multiplier in sin_array:
         for x in range(width):
             for y in range(height):

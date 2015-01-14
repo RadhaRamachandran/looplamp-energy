@@ -28,8 +28,8 @@
       <file leaf-file-name="run_inst.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/looplamp-module-inst/run_inst.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80263156" vertical-offset="549" max-vertical-offset="1080">
-              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.44078946" vertical-offset="489" max-vertical-offset="1080">
+              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
               <folding>
                 <element signature="e#163#186#0" expanded="true" />
               </folding>
@@ -384,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/looplamp-module-inst/run_inst.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80263156" vertical-offset="549" max-vertical-offset="1080">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.44078946" vertical-offset="489" max-vertical-offset="1080">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
           <folding>
             <element signature="e#163#186#0" expanded="true" />
           </folding>
