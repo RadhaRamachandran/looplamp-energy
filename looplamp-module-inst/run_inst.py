@@ -46,7 +46,7 @@ for i in range(len(inst_data)):
     sin_array = np.sin((range(0., 180., 15.)) * np.pi / 180.)
     for multiplier in sin_array:
         for x in range(width):
-   	        for y in range(height):
+            for y in range(height):
                 value = pixels[x, y]
                 y3 = y * 3
                 column[x][y3]     = gamma[multiplier * value[1]] #green
