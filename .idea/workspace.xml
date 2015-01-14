@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d563b38c-0f38-4b26-8dbb-12de15aca5ef" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/looplamp-module-inst/run_inst.py" afterPath="$PROJECT_DIR$/looplamp-module-inst/run_inst.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/looplamp-module-inst/write_csv_inst.py" afterPath="$PROJECT_DIR$/looplamp-module-inst/write_csv_inst.py" />
     </list>
     <ignored path="looplamp-energy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="run_inst.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/looplamp-module-inst/run_inst.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8355263" vertical-offset="579" max-vertical-offset="1080">
-              <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.67105263" vertical-offset="624" max-vertical-offset="1080">
+              <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
               <folding>
                 <element signature="e#163#186#0" expanded="true" />
               </folding>
@@ -385,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/looplamp-module-inst/run_inst.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8355263" vertical-offset="579" max-vertical-offset="1080">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.67105263" vertical-offset="624" max-vertical-offset="1080">
+          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
           <folding>
             <element signature="e#163#186#0" expanded="true" />
           </folding>
