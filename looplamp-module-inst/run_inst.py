@@ -50,9 +50,9 @@ for i in range(len(inst_data)):
             for y in range(height):
                 value = pixels[x, y]
                 y3 = y * 3
-                column[x][y3]     = gamma[multiplier * value[1]] #green
-                column[x][y3 + 1] = gamma[multiplier * value[0]] #red
-                column[x][y3 + 2] = gamma[multiplier * value[2]] #blue
+                column[x][y3]     = gamma[int(multiplier * value[1])] #green
+                column[x][y3 + 1] = gamma[int(multiplier * value[0])] #red
+                column[x][y3 + 2] = gamma[int(multiplier * value[2])] #blue
 
 
 
