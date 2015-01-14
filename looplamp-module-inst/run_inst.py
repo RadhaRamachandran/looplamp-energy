@@ -43,20 +43,24 @@ for i in range(len(inst_data)):
 
     # Convert 8-bit RGB image into column-wise GRB bytearray list.
     print "Converting..."
+    sin_array = np.sin((range(0., 180., 15.)) * np.pi / 180.)
+    for multiplier in sin_array:
     for x in range(width):
    	for y in range(height):
   		value = pixels[x, y]
   		y3 = y * 3
-  		column[x][y3]     = gamma[value[1]]
-  		column[x][y3 + 1] = gamma[value[0]]
-  		column[x][y3 + 2] = gamma[value[2]]
+  		column[x][y3]     = gamma[multiplier * value[1]] #green
+  		column[x][y3 + 1] = gamma[multiplier * value[0]] #red
+  		column[x][y3 + 2] = gamma[multiplier * value[2]] #blue
+
 
 
     # Then it's a trivial matter of writing each column to the SPI port.
     print "Displaying..."
 
+    for multiplier in sin_array:
     for x in range(width):
         spidev.write(column[x])
         spidev.flush()
-        time.sleep(0.5)
+        time.sleep(0.1)
 

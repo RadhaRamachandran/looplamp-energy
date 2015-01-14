@@ -16,9 +16,9 @@ df_today['fraction'] = df_today['total_energy'] / max
 def categorize(value):
     if value >= .75:
         return 4
-    if (value >= .5) & (value < .75):
+    else if (value >= .5) & (value < .75):
         return 3
-    if (value >= .25) & (value < (.5)):
+    else if (value >= .25) & (value < (.5)):
         return 2
     else:
         return 1
